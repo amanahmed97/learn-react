@@ -1,0 +1,60 @@
+.summary-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-heading{
+    text-align: left;
+    margin-left: 1em;
+}
+
+.image-card-s{
+    height:9em;
+    padding-top: 0.1em;
+    background-color: white;
+    margin-left: 2em;
+    width: 70em;
+    box-shadow: 0.1em 0.05em 0.5em 0.1em gray;
+    margin-top: 2em;
+}
+
+.image-block-s{
+    height:5em;
+    width:5em;
+    background-color: grey;
+    margin-top: 1em;
+    margin-left: 2em;
+
+}
+
+.image-title-s{
+    text-align: left;
+    /* display: inline; */
+    margin-left: 5.5em;
+    margin-top: -3em;;
+}
+
+.image-description-s{
+    text-align: left;
+    margin-left: 8.3em;
+}
+
+.instance-card-s{
+    height:15em;
+    padding-top: 0.1em;
+    background-color: white;
+    margin-left: 2em;
+    width: 30em;
+    box-shadow: 0.1em 0.05em 0.5em 0.1em gray;
+    margin-top: 2em;
+}
+.instance-title-s{
+    text-align: left;
+    margin-left: 1em;
+}
+
+.instance-description-s{
+    text-align: left;
+    margin-left: 2em;
+}
+

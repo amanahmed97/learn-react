@@ -1,0 +1,38 @@
+$grey-10: #F9F9FA; // Background and disabled background for buttons
+$grey-20: #E8E8E8; // Dividers & borders, disabled states
+$grey-30: #CACCCF; // Default texts in text field
+$grey-40: #A0A4A8; // Inactive states
+$grey-100: #52575C; // Secondary text
+$grey-200: #25282B; // Title texts, captions, input fields and everywhere else where black is required
+$background: #F4F5F8;
+$black: #000000;
+$white: #ffffff;
+$primary-10: #E5F2FF;
+
+$primary: #007EFF; // Primary actions, buttons and links
+$danger: #FB4E4E; // Error
+$warning: #F6A609; // Warning
+$success: #2AC769; // Success
+
+$font-size-sm: 0.5em;
+$font-size-lt: 0.85em;
+$font-size-rg: 1em;
+$font-size-lg: 1.2em;
+$font-size-xlg: 1.5em;
+$font-size-xxlg: 2em;
+
+$box-shadow-1: 0px 4px 15px rgba(0, 0, 0, 0.25);
+$box-shadow-primary: 0px 8px 16px rgba(0, 126, 255, 0.16);
+$box-shadow-secondary: 0px 8px 16px rgba(0, 0, 0, 0.16);
+
+$border-radius-sm: 2px;
+$border-radius-md: 4px;
+$border-radius-lg: 6px;
+$border-radius-xlg: 8px;
+
+
+@mixin text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

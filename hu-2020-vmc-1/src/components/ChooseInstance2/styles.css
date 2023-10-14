@@ -1,0 +1,54 @@
+.ddl-out{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .ddl-in{
+    height: 4em;
+    width: 15em;
+    margin-left: 4em;
+    font-size: 1em;
+    color: #0A7CFA;
+    border-radius: 0.5em;
+    border-color:  #0A7CFA;
+    background-color: white;
+  }
+  
+  .ddl-val{
+    height: 4em;
+    width: 15em;
+    margin-left: 4em;
+    font-size: 1em;
+    color: #0A7CFA;
+    border-radius: 0.5em;
+    border-color:  #0A7CFA;
+    background-color: white;
+  }
+
+  .next-btn{
+    background-color: blue;
+    color: white;
+    float:right;
+    height: 2.5em;
+    width: 8em;
+    border: none;
+    border-radius: 0.2em;
+    margin-right: 3em;
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-top:10em;
+  }
+
+  .back-btn{
+    background-color: black;
+    color: white;
+    float:right;
+    height: 2.5em;
+    width: 8em;
+    border: none;
+    border-radius: 0.2em;
+    margin-right: 6em;
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-top:10em;
+  }

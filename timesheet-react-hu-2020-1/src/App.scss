@@ -1,0 +1,68 @@
+@import "./styles/commons.scss";
+//@import "https://www.w3schools.com/w3css/4/w3.css";
+
+.app-container {
+  padding: 0.5em;
+  background: $background-blue;
+  height: 100vh;
+  overflow: hidden;
+
+  .pbar{
+    width:100%;
+    
+  }
+
+  .outbar{
+    //display: block;
+    width:100%;
+    background-color: lightgray;
+    border-radius: 1em;
+    height: 0.5em;
+    .inbar{
+      //width:50%;
+      height: 0.5em;
+      background-color: darkorange;
+      border-radius: 1em;
+    }
+    .red-bar{
+      height: 0.5em;
+      background-color: red;
+      border-radius: 1em;
+    }
+    .orange-bar{
+      height: 0.5em;
+      background-color: darkorange;
+      border-radius: 1em;
+    }
+    .green-bar{
+      height: 0.5em;
+      background-color: green;
+      border-radius: 1em;
+    }
+  }
+
+  .floating-add-entry-btn {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background: $primary-blue;
+    border:none;
+  }
+
+  .add-icon {
+    height: 2em;
+  }
+
+  .empty-text {
+    font-weight: 300;
+    margin: 2em 0.5em;
+  }
+}
+
+h1 {
+  margin: 0.5em 0;
+  color: $primary-blue;
+}

@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  background-color: #F4F5F8;/*added*/
+  /* width:120em; */
+  
+}
+
+.App-header {
+  background-color: #FFFFFF;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  box-shadow: 10px 5px lightgray;
+  /* added */
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+main{
+  display:flex;
+  flex-direction: column;
+  width:115em;
+  height: 100em;
+  
+}
+
+body{
+ display:flex;
+ /* grid-template-columns: 3fr 1fr;
+ grid-template-rows: 5% 1fr; */
+ flex-direction: row;
+ justify-content: space-between; 
+}
+
+.content{
+
+}
+
+
+.navbar{
+  display: flex;
+  /* justify-content: space-evenly; */
+  padding-bottom: 3em;
+}
+
+.navbutton{
+  /* background-color: #0A7CFA; */
+  background-color: #FFFFFF;
+  border: none;
+  /* border-bottom: 10px black; */
+  font-size: 1em;
+  border-radius: 0.2em;
+  padding : 0.5em;
+  font-weight: 600;
+  margin-left: 2em;
+}
+
+
+.cost-card{
+  /*
+  display:flex;
+  flex-direction: column; */
+  background-color: #FFFFFF;
+  margin-top: 5em;
+  border-radius: 0.5em;
+  justify-content: flex-end;
+  width: 20%;
+  margin-right: 5em;
+  height: 20em;
+  box-shadow: 0.1em 0.05em 0.5em 0.1em gray;
+  
+
+}
+
+.cost-card-header{
+ padding-left: 5%;
+ text-align: left;   
+}
+
+.cost-card-line{
+  border: 10px 10px black;
+}
+
+.dollar-cost{
+  text-align: right;
+  padding-right: 5%;
+  font-weight: 400;
+}
+
+.body-title{
+  text-align: left; 
+  font-size: 3em;
+  font-weight: 300;
+   padding-left: 1em; 
+}
+
+
+.nav-bar{
+  display:flex;
+  padding-top:1em;
+}
+.nav-button{
+background-color: #FFFFFF;
+border-color: #0A7CFA;
+/* border-bottom: 10px black; */
+color: #0A7CFA;
+font-size: 1em;
+border-radius: 0.5em;
+padding : 0.5em;
+font-size:2em;
+font-weight: 500;
+margin-left: 0.5em;
+}
+
+.create-config-header{
+text-align: left;
+padding-left: 2em;
+font-weight: 400;
+}
+
+.region{
+  height: 4em;
+  width: 15em;
+  margin-left: 10em;
+  margin-top: -5em;
+  float: right;
+  font-size: 1em;
+  color: #0A7CFA;
+  border-radius: 0.5em;
+  border-color:  #0A7CFA;
+  background-color: white;
+}

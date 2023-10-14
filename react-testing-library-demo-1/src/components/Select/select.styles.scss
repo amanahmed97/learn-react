@@ -1,0 +1,64 @@
+@import "../../styles/commons.scss";
+
+.react-selector {
+  font-size: $font-size-lt;
+}
+
+.react-selector__control {
+  position: relative;
+  width: 100%;
+  min-width: 4em;
+  padding: 0.5em 1em;
+  border: 1px solid $grey-20;
+  border-radius: $border-radius-xlg;
+  background: $white;
+
+  &:hover, &:focus, &:active {
+    border: 1px solid $primary;
+  }
+}
+
+.react-selector__control__label {
+  padding: 0.5em;
+}
+
+.react-selector__menu {
+
+}
+
+.react-selector__menu__list {
+  list-style: none;
+  background: $white;
+  padding: 0em;
+  margin: 0;
+  margin-left: 0.5em;
+  margin-top: 0.2em;
+  border-radius: $border-radius-lg;
+  border: 1px solid $grey-20;
+
+  :last-child {
+    border: none;
+  }
+}
+
+.menu-list__item {
+  padding: 0.8em 1em;
+  border-bottom: 1px solid $grey-20;
+
+  &:hover {
+    background: $primary-10;
+    color: $primary;
+  }
+}
+
+.react-selector__control__label {
+  width: 95%;
+  padding: 0.2em;
+  @include text-ellipsis;
+}
+
+.react-selector__dropdown-indicator {
+  position: absolute;
+  right: 8px;
+  top: 15%;
+}
